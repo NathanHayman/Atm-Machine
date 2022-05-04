@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+#root {
+    margin: auto;
+}
+form {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    background-color: rgb(235, 231, 231);
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 5%;
+}
+input {
+    margin: 2px;
+}
+button {
+    background-color: black;
+    margin: 20px 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: 0.5px solid white;
+    color: rgb(235, 231, 231);;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.2),
+    0px -5px 10px rgba(255,255,255,0.15);
+}
+h2 {
+    text-align: center;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.2),
+    0px -5px 10px rgba(255,255,255,0.15);
+}
+h3 {
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.2),
+    0px -5px 10px rgba(255,255,255,0.15);
+}
